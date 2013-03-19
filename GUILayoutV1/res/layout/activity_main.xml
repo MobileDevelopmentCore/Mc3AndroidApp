@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+  	<ScrollView
+  	    android:id="@+id/scrollView"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="match_parent"
+  	    android:background="@drawable/main_background_center"
+  	    android:clickable="false"
+  	    android:longClickable="false"
+  	    android:fillViewport="false"
+  	    android:orientation="vertical"
+  	    android:visibility="visible" >
+  	    
+
+  	    	
+  	    	<TableLayout
+  	    	    android:id="@+id/TableLayout"
+  	    	    android:layout_width="fill_parent"
+  	    	    android:layout_height="wrap_content" 
+  	    	    android:layout_marginTop="0dp"
+  	    	    style="@style/main_table_layout">
+  	    	    
+  	   		<ImageView android:src="@drawable/mainbground_top"
+  	   		    android:layout_weight="0"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_gravity="top|start"
+        		/>
+  	    	    
+  	    	   <!-- These buttons should be changed to Image Buttons once we have images ready -->
+
+  	    	<TableRow
+  	    	    android:id="@+id/tablerow_1"
+  	    	    android:layout_width="fill_parent"
+  	    	    android:layout_height="wrap_content"
+  	    	    android:layout_marginTop="15dp"
+  	    	    style="@style/main_table_row"
+  	    	    >
+
+  	    	   	<Button
+  	    	   	    android:id="@+id/map_button"
+  	    	   	    android:layout_marginLeft="10dp"
+  	    	   	    android:layout_marginRight="10dp"
+  	    	   	    android:background="@drawable/round_button"
+  	    	   	    android:clickable="true"
+  	    	   	    android:longClickable="true"
+  	    	   	    android:text="@string/map_button"
+  	    	   	    android:onClick="sendToMaps"
+  	    	   	    android:layout_width="130dp"
+  	    	   	    android:layout_height="130dp"
+  	    	   	 	/>
+
+  	    	   <Button
+  	    	       android:id="@+id/news_button"
+  	    	       android:layout_marginLeft="10dp"
+  	    	   	   android:layout_marginRight="10dp"
+  	    	       android:clickable="true"
+  	    	       android:longClickable="true"
+  	    	       android:text="@string/news_button"
+  	    	       android:background="@drawable/round_button"
+  	    	       android:layout_width="130dp"
+  	    	   	    android:layout_height="130dp"
+  	    	        />  	
+  	    	            	   
+  	    	</TableRow>
+  	    	
+  	    	<TableRow  
+  	    	    android:id="@+id/tablerow_2"
+  	    	    android:layout_width="fill_parent"
+  	    	    android:layout_height="wrap_content"
+  	    	    android:layout_marginTop="15dp"
+  	    	    style="@style/main_table_row">
+  	    	   
+  	    	    
+  	    	    
+  	    	   <ImageButton
+  	    	   	    android:id="@+id/alerts_button"
+  	    	   	    android:src="@drawable/alerts_mainbutton"
+  	    	   	    android:layout_marginLeft="10dp"
+  	    	   	    android:layout_marginRight="10dp"
+  	    	   	    android:background="@drawable/round_button"
+  	    	   	    android:clickable="true"
+  	    	   	    android:longClickable="true"
+  	    	   	    android:text="@string/alerts_button"
+  	    	   	    
+  	    	   	   
+  	    	   	    />
+
+  	    	   <Button
+  	    	       android:id="@+id/mail_button"
+  	    	       android:layout_marginLeft="10dp"
+  	    	   	   android:layout_marginRight="10dp"
+  	    	   	   android:background="@drawable/round_button"
+  	    	       android:clickable="true"
+  	    	       android:longClickable="true"
+  	    	       android:text="@string/mail_button"
+  	    	       android:layout_width="130dp"
+  	    	   	    android:layout_height="130dp"
+  	    	        />  	 
+  	    	</TableRow>
+  	    	   
+  	    	</TableLayout>
+		
+  	    </ScrollView>
+  	    	
+ 	    
+
+</LinearLayout>

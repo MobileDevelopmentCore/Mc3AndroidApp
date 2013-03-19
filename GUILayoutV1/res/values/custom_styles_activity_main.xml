@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="main_table_layout">
+        <item name="android:dividerPadding">30dp</item>
+        <item name="android:gravity">fill_vertical|fill_horizontal</item>
+        <item name="android:minHeight">693dp</item>
+        <item name="android:verticalSpacing">15dp</item>
+
+    </style>
+    
+    <style name="main_table_row">
+        
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+ 		
+    </style>
+    
+
+</resources>

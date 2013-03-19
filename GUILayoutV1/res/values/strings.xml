@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GUI Layout V1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="map_button">Campus Map</string>
+    <string name="news_button">News Button</string>
+    <string name="alerts_button">Alerts</string>
+    <string name="mail_button">Mail</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_campus_map">MC3 Blue Bell Campus</string>
+    <string name="find_me">Find Me</string>
+
+</resources>
